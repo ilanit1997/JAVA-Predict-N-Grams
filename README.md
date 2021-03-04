@@ -10,6 +10,7 @@ and so on
 **Part 1**
 **CLASSES:**
 MarkovZero - generate random text
+
 MarkovOne - rely on 1 chars in choice of next char
 MarkovFour - rely on 4 chars in choice of next char
 MarkovModel - rely on N chars in choice of next char
