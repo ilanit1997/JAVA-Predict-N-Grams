@@ -1,5 +1,5 @@
 # Predict-Text-N-Grams
-**Main description**
+**Main description:**
 
 Train character selection based on an input text.
 In this project we create a text generation system based on markov process described as follows:
@@ -11,9 +11,9 @@ order 1 - choice of char at time t is dependent of time t-1.
 order 2 - choice of char at time t is dependent of time t-1 and t-2 and so on.
 
 
-**Part 1**
+**Part 1:**
 
-**Classes**
+**Classes:**
 
 a. MarkovZero - generate random text.
 
@@ -27,7 +27,7 @@ e. MarkovRunner - run and test MarkovZero, MarkovOne, MarkovFour, MarkovModel.
 
 f. Tester - run tests
 
-**Methods**
+**Methods:**
 
 a. main - recieve file path from data folder.
 
@@ -44,21 +44,21 @@ let's suppose myText is : "this is a test yes this is a test.”
 e. getFollows(“t”) will return: “h”, “e”, “ “, “h”, “e”, “.” because t appears 6 times.
 
 
-**Part 2** - similar to part 1 but with Abstract Classes and Interface
+**Part 2:** - similar to part 1 but with Abstract Classes and Interface
 
-**Classes**
+**Classes:**
 
 a. MarkovRunnerWithInterface.
 b. AbstractMarkovModel.
 
 
-**Part 3** - improve run time of getRandomText with HashMap.
+**Part 3:** - improve run time of getRandomText with HashMap.
 
-**Classes**
+**Classes:**
 
 a. EfficientMarkovModel.
 b. MarkovRunnerWithInterfaceEfficient.
 
-**Methods**
+**Methods:**
 
 buildMap - used to create HashMap.
