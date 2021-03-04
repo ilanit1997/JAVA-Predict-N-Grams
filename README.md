@@ -44,9 +44,7 @@ let's suppose myText is : "this is a test yes this is a test.”
 
 getFollows(“t”) will return: “h”, “e”, “ “, “h”, “e”, “.” because t appears 6 times
 
-**Part 2**
-
-same as part 1 but with Abstract Classes and Interface
+**Part 2** - similar to part 1 but with Abstract Classes and Interface
 
 **CLASSES:**
 
@@ -54,16 +52,11 @@ MarkovRunnerWithInterface
 
 AbstractMarkovModel
 
-**part 3**
-
-improving run time of getRandomText
+**part 3** - improve run time of getRandomText with HashMap
 
 **CLASSES:**
-
 EfficientMarkovModel
-
 MarkovRunnerWithInterfaceEfficient
 
 **METHODS**
-
 buildMap - used to create HashMap
