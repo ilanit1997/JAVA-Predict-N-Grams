@@ -30,11 +30,13 @@ Order 2 - choice of char at time t is dependent of time t-1 and t-2 and so on.
 3. getFollows - method recieves key as string and find consecutives chars to key from an inner variable named myText, finally saving 
 this into ArrayList and returning it.
 4. getRandomText - chooses next char to be printed by finding all consecutive char from training set, and choosing one randomly.
+
 For Example: 
 Let's suppose myText is : "this is a test yes this is a test.” , getFollows(“t”) will return: “h”, “e”, “ “, “h”, “e”, “.” because t appears 6 times.
 
 
 **Part 2:**  
+
 **Description:**
 Similar to part 1 but with Abstract Classes and Interface. 
 Improve run time of getRandomText with HashMap.
